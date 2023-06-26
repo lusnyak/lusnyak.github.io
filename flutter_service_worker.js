@@ -4,18 +4,17 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "bd590c03f7df172523c49538cc223e27",
-"index.html": "fa20cf1968c0da0dd52a2612c0f51dd4",
-"/": "fa20cf1968c0da0dd52a2612c0f51dd4",
-"main.dart.js": "c2dfac0b13ffbca4289fb4d7c31bdded",
-"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+"index.html": "fa445987084784ac9f9842149caf546f",
+"/": "fa445987084784ac9f9842149caf546f",
+"main.dart.js": "df873f62072661b315fba9e80fc95458",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "15e02d2267f8190fbeefa8f8fa03c795",
-"assets/AssetManifest.json": "a3a1e90447f39aea886fe204005e3221",
-"assets/NOTICES": "8d05ca7edff2a66e898bf6f2ceb9bb48",
+"assets/AssetManifest.json": "aba23e6a8f708fc06569a67c9818b62f",
+"assets/NOTICES": "fe0c6f993ba163b67c178c60b0b601a9",
 "assets/FontManifest.json": "2b294ec57e46463e2e3a3843af5f553f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
@@ -27,6 +26,7 @@ const RESOURCES = {
 "assets/assets/svg/user-circle-add.svg": "fe92bf643f5b476aef2b4e7f8591b95c",
 "assets/assets/svg/amore.svg": "7692e5b021e169d4b8818f4a8c01b7a8",
 "assets/assets/svg/clock-red.svg": "34e9665ad31dc55a1f84a67f53591e67",
+"assets/assets/svg/trash-white.svg": "0d73c9e86682d39ea8a8ce42ebd1e0e0",
 "assets/assets/svg/close-circle.svg": "e16cea94387f555b4e05a39441b9e25b",
 "assets/assets/svg/slash.svg": "0c5936c14eba033b1844eaffe64e85d2",
 "assets/assets/svg/slash-red.svg": "2d1b5cb6f648fe819629eb935a475fbf",
@@ -54,11 +54,7 @@ const RESOURCES = {
 "assets/assets/fonts/Circe/Circe-Light.otf": "fcff34ec64e71eb0d96c580ad4468343",
 "assets/assets/fonts/Circe/Circe-ExtraLight.otf": "73b8b3e4cd98276d9c6027f37eabb6c6",
 "assets/assets/fonts/Circe/Circe-Regular.otf": "534ec7d59fae6ac015a8491928d1f159",
-"assets/assets/fonts/Circe/Circe-Bold.otf": "208f1642b4f4c1bd8b66d7c7f56b5579",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
+"assets/assets/fonts/Circe/Circe-Bold.otf": "208f1642b4f4c1bd8b66d7c7f56b5579"
 };
 
 // The application shell files that are downloaded before a service worker can
