@@ -8283,11 +8283,11 @@ _.e=a2
 _.f=a3},
 av6:function av6(a){this.a=a},
 av7:function av7(){},
-cI(){var s=A.b8w("http://68.183.61.196:8086",B.KU,"application/json; charset=utf-8",B.L6,B.L3),r=new A.TH(A.b([B.FK],t.i6)),q=new A.afV($,r,$,new A.abv(A.bk0()),!1)
-q.Lr$=s
-q.a_e$=new A.act(A.aR(t.Gf))
-r.E(r,new A.Cm())
-return new A.PS(new A.oz(),q)},
+cI(){var s="application/json",r=A.b8w("https://api.sparkupdating.com",B.KU,A.a0(["Content-Type",s,"Accept",s],t.N,t.z),B.L6,B.L3),q=new A.TH(A.b([B.FK],t.i6)),p=new A.afV($,q,$,new A.abv(A.bk0()),!1)
+p.Lr$=r
+p.a_e$=new A.act(A.aR(t.Gf))
+q.E(q,new A.Cm())
+return new A.PS(new A.oz(),p)},
 PS:function PS(a,b){this.a=a
 this.b=b},
 ab7:function ab7(){},
@@ -9968,7 +9968,7 @@ _.d=d
 _.e=e
 _.f=!1},
 b8w(a,b,c,d,e){var s=null,r=new A.abE($,$,s,e,d,s,s)
-r.Qe(c,s,s,s,s,s,s,s,s,d,s,s,B.lR,e,s)
+r.Qe(s,s,s,c,s,s,s,s,s,d,s,s,B.lR,e,s)
 r.th$=A.w(t.N,t.z)
 r.x7$=a
 r.sZ6(b)
@@ -48175,7 +48175,7 @@ e7(){var s=this
 return A.a0(["message",s.a,"createdDate",s.d,"photoId",s.b,"userId",s.c,"read",s.e],t.N,t.z)}}
 A.dP.prototype={
 ga0b(){var s=this.f
-return s!=null&&s.length!==0?"http://68.183.61.196:8086/image/"+s:null},
+return s!=null&&s.length!==0?"https://api.sparkupdating.com/image/"+s:null},
 gmv(){var s=this.c
 if(s==null)return null
 if(s.length===0)return null
@@ -48950,7 +48950,7 @@ else{s=n.a.c.f
 s=s.length!==0?B.b.gY(s):m
 if(s==null)s=m
 else{s=s.a
-s=s.length!==0?"http://68.183.61.196:8086/image/"+s:m}s=new A.kt(s,n.ga5z(),50,14,m)}if(n.w)r=m
+s=s.length!==0?"https://api.sparkupdating.com/image/"+s:m}s=new A.kt(s,n.ga5z(),50,14,m)}if(n.w)r=m
 else{r=A.lk(B.aZ,n.d,!1,m,m,m,200,m,new A.aCg(n,a),m,!1,m,B.bo.atw("Circe"))
 q=$.aWT()
 p=n.a.c.e
@@ -49047,14 +49047,14 @@ var s=this.a.c.f
 s=s.length!==0?B.b.gY(s):null
 if(s==null)s=null
 else{s=s.a
-s=s.length!==0?"http://68.183.61.196:8086/image/"+s:null}this.d=s},
+s=s.length!==0?"https://api.sparkupdating.com/image/"+s:null}this.d=s},
 aG(a){var s
 this.aS(a)
 s=this.a.c.f
 s=s.length!==0?B.b.gY(s):null
 if(s==null)s=null
 else{s=s.a
-s=s.length!==0?"http://68.183.61.196:8086/image/"+s:null}this.d=s},
+s=s.length!==0?"https://api.sparkupdating.com/image/"+s:null}this.d=s},
 G(a){return A.fh(new A.aCk(this))},
 mV(a){var s=0,r=A.u(t.z),q=this,p,o
 var $async$mV=A.p(function(b,c){if(b===1)return A.q(c,r)
@@ -49075,7 +49075,7 @@ o=p==null
 s=!o&&p.length!==0?2:3
 break
 case 2:if(o)n=null
-else n=A.dx(p,"http://68.183.61.196:8086/image/","")
+else n=A.dx(p,"https://api.sparkupdating.com/image/","")
 A.aM().$1(n)
 s=n!=null&&n.length!==0?4:5
 break
@@ -49098,7 +49098,7 @@ A.cd(r,!1,t.k_).a2O(a,s.a.c.a)
 if(s.c!=null)s.a1(new A.aCn(s,a))}},
 $S:273}
 A.aCn.prototype={
-$0(){this.a.d="http://68.183.61.196:8086/image/"+this.b},
+$0(){this.a.d="https://api.sparkupdating.com/image/"+this.b},
 $S:0}
 A.aCm.prototype={
 $1(a){var s,r
@@ -49173,7 +49173,7 @@ $S:443}
 A.aN7.prototype={
 $2(a,b){var s,r,q=this,p=null,o=q.b
 if(b<o.length){s=o[b].a
-r=s.length!==0?"http://68.183.61.196:8086/image/"+s:p}else r=""
+r=s.length!==0?"https://api.sparkupdating.com/image/"+s:p}else r=""
 s=q.a.a.d!=null
 o=s?new A.aN5(q.c,o,b):p
 return new A.qq(s?new A.aN6(q.c):p,o,r,p)},
@@ -49323,7 +49323,7 @@ else{o=o.c.e
 o=o.length!==0?B.b.gY(o):p
 if(o==null)o=p
 else{o=o.a
-o=o.length!==0?"http://68.183.61.196:8086/image/"+o:p}o=new A.kt(o==null?"":o,p,50,14,p)}if(q.e)s=p
+o=o.length!==0?"https://api.sparkupdating.com/image/"+o:p}o=new A.kt(o==null?"":o,p,50,14,p)}if(q.e)s=p
 else{s=q.a.c
 r=s.b
 s=A.d9(A.b([new A.oc(r==null?"":r,"Name",56,!0,p),new A.oc(s.a,"ID",56,!1,p)],t.p),B.aK,B.C,B.L)}return A.e3(!1,p,!0,A.dK(p,p,B.ah,20,A.U2(B.hR,p,p,B.X,o,p,p,p,s,q.e?q.gac7():q.gWl(),p),p,p,m,B.ec,p,p),p,!0,p,p,B.m,B.m,p,p,new A.aNj(q),p,n,p,p,p,p,B.m,p,p)},
@@ -49415,7 +49415,7 @@ else{q=q.f
 q=q.length!==0?B.b.gY(q):r
 if(q==null)q=p
 else{q=q.a
-q=q.length!==0?"http://68.183.61.196:8086/image/"+q:r}}q=A.bW(B.bQ,new A.kt(q,r,40,20,r),B.o,r,r,r,r,r,r,r,r,r,r,160)
+q=q.length!==0?"https://api.sparkupdating.com/image/"+q:r}}q=A.bW(B.bQ,new A.kt(q,r,40,20,r),B.o,r,r,r,r,r,r,r,r,r,r,160)
 p=A.aF(B.d.aD(127.5),B.X.D()>>>16&255,B.X.D()>>>8&255,B.X.D()&255)
 s=t.rc
 return new A.aP(B.eb,new A.pH(A.agU(B.cU,A.aST(new A.b0(B.m,s)),q,A.ah2(new A.bo(B.f,r,A.kP(B.ah,1),B.hg,r,r,r,B.K),3,B.bI,r,160),r,!0,!0,B.lf,new A.uI(B.aZ,new A.b0(p,s)),new A.aEn(b,a),r,t.S),r),r)},
@@ -49559,7 +49559,7 @@ G(a){var s,r=null,q=this.c,p=q==null,o=r
 if(!p){s=q.e
 s=s.length!==0?B.b.gY(s):r
 if(!(s==null)){o=s.a
-o=o.length!==0?"http://68.183.61.196:8086/image/"+o:r}}q=p?r:q.b
+o=o.length!==0?"https://api.sparkupdating.com/image/"+o:r}}q=p?r:q.b
 if(q==null)q=""
 p=t.p
 return A.l3(r,A.ce(A.b([new A.kt(o,r,32,16,r),new A.aP(B.pr,A.d9(A.b([A.bS(q,r,r,r,r,B.dU.ms(B.bu),B.cn,r,r),A.bS("Bot profile",r,r,r,r,B.aq.bd(B.aY),B.cn,r,r)],p),B.aK,B.C,B.S),r)],p),B.y,B.C,B.L,r),B.a8,!1,r,r,r,r,r,r,r,r,r,r,r,r,new A.ac1(this,a),r,r,r)},
@@ -49631,7 +49631,7 @@ m=A.d9(m,B.y,B.aG,B.L)
 return A.bW(B.n,A.U2(r,r,r,r,r,this.f,new A.dd(A.dU(24),B.q),r,m,r,r),B.o,r,r,new A.bo(n,r,r,r,r,r,r,B.K),r,r,r,r,B.ed,r,r,r)},
 gbL(a){return this.d}}
 A.wW.prototype={
-G(a){var s,r,q,p,o,n=this,m=null,l="http://68.183.61.196:8086/image/",k=n.d?B.X:B.f,j=B.LA.atz(6),i=n.c,h=i.c,g=h.gwe()
+G(a){var s,r,q,p,o,n=this,m=null,l="https://api.sparkupdating.com/image/",k=n.d?B.X:B.f,j=B.LA.atz(6),i=n.c,h=i.c,g=h.gwe()
 if(g==null)g=m
 else{g=g.a
 g=g.length!==0?l+g:m}g=n.ac2(h.f,g)
@@ -49671,7 +49671,7 @@ n=n.gwe()
 r=o
 if(n==null)n=r
 else{n=n.a
-n=n.length!==0?"http://68.183.61.196:8086/image/"+n:o}n=p.aqQ(s,n)
+n=n.length!==0?"https://api.sparkupdating.com/image/"+n:o}n=p.aqQ(s,n)
 s=p.a.c
 s=s==null?o:s.b
 if(s==null)s=""
@@ -49883,7 +49883,7 @@ else{q=q.f
 q=q.length!==0?B.b.gY(q):r
 if(q==null)q=p
 else{q=q.a
-q=q.length!==0?"http://68.183.61.196:8086/image/"+q:r}}q=A.bW(B.bQ,new A.kt(q,r,40,20,r),B.o,r,r,r,r,r,r,r,r,r,r,160)
+q=q.length!==0?"https://api.sparkupdating.com/image/"+q:r}}q=A.bW(B.bQ,new A.kt(q,r,40,20,r),B.o,r,r,r,r,r,r,r,r,r,r,160)
 p=A.aF(B.d.aD(127.5),B.X.D()>>>16&255,B.X.D()>>>8&255,B.X.D()&255)
 s=t.rc
 return new A.aP(B.eb,new A.pH(A.agU(B.cU,A.aST(new A.b0(B.m,s)),q,A.ah2(new A.bo(B.f,r,A.kP(B.ah,1),B.hg,r,r,r,B.K),3,B.bI,r,160),r,!0,!0,B.lf,new A.uI(B.aZ,new A.b0(p,s)),new A.anA(b,a),r,t.S),r),r)},
@@ -49986,7 +49986,7 @@ else{q=q.f
 q=q.length!==0?B.b.gY(q):r
 if(q==null)q=p
 else{q=q.a
-q=q.length!==0?"http://68.183.61.196:8086/image/"+q:r}}q=A.bW(B.bQ,new A.kt(q,r,40,20,r),B.o,r,r,r,r,r,r,r,r,r,r,160)
+q=q.length!==0?"https://api.sparkupdating.com/image/"+q:r}}q=A.bW(B.bQ,new A.kt(q,r,40,20,r),B.o,r,r,r,r,r,r,r,r,r,r,160)
 p=A.aF(B.d.aD(127.5),B.X.D()>>>16&255,B.X.D()>>>8&255,B.X.D()&255)
 s=t.rc
 return new A.aP(B.eb,new A.pH(A.agU(B.cU,A.aST(new A.b0(B.m,s)),q,A.ah2(new A.bo(B.f,r,A.kP(B.ah,1),B.hg,r,r,r,B.K),3,B.bI,r,160),r,!0,!0,B.lf,new A.uI(B.aZ,new A.b0(p,s)),new A.aJ2(b,a),r,t.S),r),r)},
@@ -50015,7 +50015,7 @@ $C:"$3",
 $R:3,
 $S:551}
 A.aIZ.prototype={
-$1(a){var s,r=null,q=a.a,p=q.length!==0?"http://68.183.61.196:8086/image/"+q:r
+$1(a){var s,r=null,q=a.a,p=q.length!==0?"https://api.sparkupdating.com/image/"+q:r
 if(p==null)p=""
 s=this.a
 return A.dK(r,B.f,r,r,new A.d4(B.nw,r,B.af,B.w,A.b([A.acZ(new A.aIW(),r,new A.aIX(s),p,new A.aIY(),r),s.ac4(q,this.b)],t.p),r),B.Eo,r,!1,r,r,r)},
@@ -50146,7 +50146,7 @@ $.a9.ghQ().P(new A.aPv(this),t.P)}}
 A.A7.prototype={
 W(){return new A.a7H()}}
 A.a7H.prototype={
-G(a){var s,r,q,p,o,n,m=this,l=null,k="http://68.183.61.196:8086/image/",j=m.a.c.gwe()
+G(a){var s,r,q,p,o,n,m=this,l=null,k="https://api.sparkupdating.com/image/",j=m.a.c.gwe()
 if(j==null)j=l
 else{j=j.a
 j=j.length!==0?k+j:l}A.aM().$1(j)
@@ -50282,7 +50282,7 @@ q=r==null
 if((q?o:r.y[b].c)!==B.lM)p=!((q?o:r.x)!=null&&r.x.length!==0)
 else p=!1
 if(!q&&r.y.length!==0){q=r.y[b].a
-q=q.length!==0?"http://68.183.61.196:8086/image/"+q:o}else q=o
+q=q.length!==0?"https://api.sparkupdating.com/image/"+q:o}else q=o
 return A.asX(14,o,s,new A.aOC(r,n,b),B.fV,q,p)},
 $S:572}
 A.aOC.prototype={
@@ -50644,15 +50644,15 @@ m.m(0,"transports",A.b(["websocket"],t.s))
 m.m(0,"timeout",3e8)
 m.m(0,"reconnectionDelay",3000)
 m.m(0,"autoConnect",!1)
-l=A.f0("http://68.183.61.196:8887",0,null)
+l=A.f0("wss://api.sparkupdating.com:443",0,null)
 k=l.gea()+"://"+l.gll(l)+":"+l.gqi(l)
 j=l.ges(l)
 i=$.aR7.af(0,k)&&$.aR7.i(0,k).c.af(0,j)
 h=J.d(m.i(0,"forceNew"),!0)||J.d(m.i(0,"force new connection"),!0)||!1===m.i(0,"multiplex")||i
 g=A.bT("io")
-if(h){$.b6M().b6(B.t,"ignoring socket cache for http://68.183.61.196:8887",null,null)
-g.b=A.aZy(m,"http://68.183.61.196:8887")}else{o=$.aR7.i(0,k)
-if(o==null){o=A.aZy(m,"http://68.183.61.196:8887")
+if(h){$.b6M().b6(B.t,"ignoring socket cache for wss://api.sparkupdating.com:443",null,null)
+g.b=A.aZy(m,"wss://api.sparkupdating.com:443")}else{o=$.aR7.i(0,k)
+if(o==null){o=A.aZy(m,"wss://api.sparkupdating.com:443")
 $.aR7.m(0,k,o)}g.b=o}if(l.gn_(l).length!==0&&m.i(0,"query")==null)m.m(0,"query",l.gn_(l))
 else if(t.f.b(m.i(0,"query")))m.m(0,"query",A.aVW(m.i(0,"query")))
 o=g.aY()
