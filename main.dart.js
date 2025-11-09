@@ -52009,6 +52009,8 @@ a6e(a){var s=0,r=A.w(t.H),q=this
 var $async$zu=A.q(function(b,c){if(b===1)return A.t(c,r)
 while(true)switch(s){case 0:A.aO().$1("selectChatCategory - "+a.e)
 J.Q9(q.w)
+B.b.a0(q.r)
+q.c=null
 q.b=a
 q.W()
 s=2
